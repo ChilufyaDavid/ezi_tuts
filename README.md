@@ -21,8 +21,6 @@ samples, guidance on mobile development, and a full API reference.
 ## Android android  
 ## Android Intents android_intents
 
-## incoming_call_notification
-
 ## 1 - FB - 1  add_firebase
 requires firebase_messaging, a plugin to use the Firebase Cloud Messaging(FCM) API
 - [Firebase initilisation]
@@ -94,3 +92,9 @@ void main() {
 }
 
 FirebaseMessaging.onBackgroundMessage can also show a message while in terminated state
+
+
+## Notifications
+### flutter_local_notifications
+flutter pub add flutter_local_notifications
+Android Setup
